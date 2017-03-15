@@ -11,17 +11,6 @@ public class test {
     }
 
     @Test
-    public void test(){
-        for(int i=0; i<5; i++){
-            for(int j=0; j<5; j++){
-                if(j == 3){
-                    break;
-                }
-            }
-        }
-    }
-
-    @Test
     public void randomArray(){
         int deInt = 100;
         int tempInt;
